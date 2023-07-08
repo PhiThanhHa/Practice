@@ -1,5 +1,9 @@
+import LoginHome from './components/LoginHome.jsx';
+
 function Login() {
-    return <h2>Login</h2>;
+    console.log('Login');
+
+    return <LoginHome />;
 }
 
 export default Login;
