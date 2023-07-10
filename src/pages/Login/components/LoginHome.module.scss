@@ -10,10 +10,49 @@
 }
 
 .container__login-box {
-    background-image: url(/static/media/login-bg-min.82ab1ba….jpg);
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(https://www.mektoube.fr/static/media/login-bg-min.82ab1ba5c306d5db59d5.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    overflow: hidden;
+}
+
+.container__login-box-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.container__login-box-form {
+    -ms-overflow-style: none;
+    background-color: #fff;
+    border-radius: 16px;
+    min-height: 651px;
+    position: relative;
+    width: 480px;
+}
+
+.container__login--box-close-link {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    text-decoration: none;
+    height: 20px;
+    width: 20px;
+    background-color: aquamarine;
+}
+
+body.material-icon-loaded .material-icons {
+    opacity: 1;
+    width: auto;
+}
+
+.material-icons {
+    display: inline-block;
+    opacity: 0;
+    transition: all 0.2s;
+    vertical-align: middle;
+    width: 0;
 }
